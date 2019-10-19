@@ -23,8 +23,20 @@
 				<div class="change_lan_ru change_lan active">RU</div>
 			</div>
 		</div>
-
 	</header>
+	<div class="wrapper">
+			<div class="menu_wrapper">
+				<div class="menu_item">Автобусы</div>
+				<div class="menu_item">Сельхозтехника</div>
+				<div class="menu_item">Навесное оборудование</div>
+				<div class="menu_item">Строительная техника</div>
+				<div class="menu_item">Грузовые автомобили</div>
+				<div class="menu_item">Спецтехника</div>
+			</div>
+		</div>
+	<section class="main_banner">
+		<div class="text_block_banner">Спецтехника</div>
+	</section>
 
 
 </body>
