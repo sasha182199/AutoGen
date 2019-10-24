@@ -2,6 +2,14 @@
 	max-width: 1400px;
 	margin:0 auto;
 }
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+p{
+	margin:0;
+}
 @media(max-width: 1399px){
 	.wrapper{
 		width: 100%;
@@ -220,4 +228,222 @@ header .wrapper{
     background-repeat: no-repeat;
     background-position: center center;
     left:30%;
+}
+.brands_wrapper{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+.brand{
+	width: 184px;
+	height: 70px;
+	border: 1px solid #C6F0DD;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.brands{
+	padding: 40px 0;
+}
+.category_wrapper{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+.category{
+	width: 32%;
+	height: 321px;
+	border: 1px solid #C6F0DD;
+	margin-bottom: 30px;
+}
+h1.title{
+	font-size: 48px;
+	font-weight: 700;
+	color: #062D35;
+	text-align: center;
+	margin:0;
+	margin-top: 80px;
+	margin-bottom: 60px;
+}
+.category_bg{
+	height: 231px;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.category:nth-child(1) .category_bg{
+	background-image: url(/img/buses.png);
+}
+.category:nth-child(2) .category_bg{
+	background-image: url(/img/combainers.png);
+}
+.category:nth-child(3) .category_bg{
+	background-image: url(/img/tractor.png);
+}
+.category:nth-child(4) .category_bg{
+	background-image: url(/img/build_tech.png);
+}
+.category:nth-child(5) .category_bg{
+	background-image: url(/img/truck.png);
+}
+.category:nth-child(6) .category_bg{
+	background-image: url(/img/spectech.png);
+}
+.category_title{
+	height: 89px;
+	padding:0 30px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.ct_title{
+	color: #062D35;
+	font-size: 24px;
+	font-weight: 700;
+}
+._ct_count{
+	width: 49px;
+	height: 30px;
+	background: #E5F8F0;
+	border-radius: 43px;
+	color: #12A968;
+	font-size: 18px;
+	font-weight: 400;
+	text-align: center;
+	line-height: 30px;
+}
+.stats_wrapper{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+.stats_item{
+	width: 30%;
+	min-width: 320px;
+	border-left: 2px solid #20C583;
+	max-width: 440px;
+	padding: 30px 40px;
+}
+.stats_title{
+	font-weight: 700;
+	font-size: 24px;
+	color:#062D35;
+}
+.stats_descr{
+	color:#4F5556;
+	font-size: 18px;
+	font-weight: 400;
+}
+.contact_us{
+	padding: 60px 0;
+	background: #10383F;
+	margin-top: 100px;
+}
+.contact_us .wrapper form{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	        -webkit-box-align: center;
+	            -ms-flex-align: center;
+	                align-items: center;
+}
+.form_title{
+	font-size: 36px;
+	color:#fff;
+	font-weight: 600;
+}
+.input_name input{
+	background: #1E494F;
+	border-radius: 2px;
+	width: 320px;
+	height: 40px;
+	color:#fff;
+	padding-left: 15px;
+	border: none;
+	font-size: 14px;
+}
+.input_name input::placeholder{
+	color:#fff;
+}
+.input_phone input{
+	background: #1E494F;
+	border-radius: 2px;
+	width: 320px;
+	height: 40px;
+	color:#fff;
+	padding-left: 15px;
+	border: none;
+	font-size: 14px;
+}
+.input_phone input::placeholder{
+	color:#fff;
+}
+.submit_button button{
+	background: #20C785;
+	border-radius: 71px;
+	width: 320px;
+	height: 40px;
+	font-size: 18px;
+	font-weight: 700;
+	color:#fff;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+footer{
+	height: 200px;
+	background-color: #062D35;
+}
+.footer_wrapper{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	height: 75%;
+}
+footer .wrapper{
+	height: 100%;
+}
+.footer_wrapper .mail_info{
+	margin-right: 59px;
+}
+.footer_wrapper .phone_number{
+	margin-right: 0;
+	margin-left: 75px;
+}
+.footer_copyright{
+	font-size: 14px;
+	color: #708F94;
+	text-align: center;
 }
