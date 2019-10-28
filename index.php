@@ -5,6 +5,8 @@
 	<title>AutoGen</title>
 	<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="/css/main.css">
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/slick-theme.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 </head>
@@ -234,6 +236,7 @@
 	<footer>
 		<div class="wrapper">
 			<div class="footer_wrapper">
+				<div class="footer_logo mob_visible_logo"><img src="/img/logo.svg" alt="logo"></div>
 				<div class="mail_info"><a href="mailto:avtogen@gmail.com">avtogen@gmail.com</a></div>
 				<div class="footer_logo"><img src="/img/logo.svg" alt="logo"></div>
 				<div class="phone_number"><a href="tel:+380954568412">+380 95 456 84 12</a></div>
@@ -247,4 +250,5 @@
 </body>
 <script src='/js/jquery.min.js'></script>
 <script src='/js/scripts.js'></script>
+<script type="text/javascript" src="js/slick.min.js"></script>
 </html>
