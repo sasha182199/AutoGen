@@ -494,6 +494,11 @@ footer .wrapper{
 	.category{
 		width: 100%;
 	}
+	.stats_wrapper{
+		-webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+	}
 	.desktop_header{
 		display: none;
 	}
