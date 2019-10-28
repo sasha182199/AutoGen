@@ -140,7 +140,9 @@
 	<main>
 		
 	<section class="main_banner">
-		<div class="text_block_banner">Спецтехника</div>
+		<a href="#">
+			<div class="text_block_banner">Спецтехника</div>
+		</a>
 	</section>
 	<section class="brands">
 		<div class="wrapper">
