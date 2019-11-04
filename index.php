@@ -159,42 +159,42 @@
 		<h1 class="title">Категории товаров</h1>
 		<div class="wrapper">
 			<div class="category_wrapper">
-				<div class="category">
+				<div class="category first">
 					<div class="category_bg"></div>
 					<div class="category_title">
 						<div class="ct_title">Автобусы</div>
 						<div class="_ct_count">100</div>
 					</div>
 				</div>
-				<div class="category">
+				<div class="category second">
 					<div class="category_bg"></div>
 					<div class="category_title">
 						<div class="ct_title">Сельхозтехника</div>
 						<div class="_ct_count">48</div>
 					</div>
 				</div>
-				<div class="category">
+				<div class="category third">
 					<div class="category_bg"></div>
 					<div class="category_title">
 						<div class="ct_title">Навесное оборудование</div>
 						<div class="_ct_count">32</div>
 					</div>
 				</div>
-				<div class="category">
+				<div class="category fourth">
 					<div class="category_bg"></div>
 					<div class="category_title">
 						<div class="ct_title">Строительная техника</div>
 						<div class="_ct_count">80</div>
 					</div>
 				</div>
-				<div class="category">
+				<div class="category fifth">
 					<div class="category_bg"></div>
 					<div class="category_title">
 						<div class="ct_title">Грузовые автомобили</div>
 						<div class="_ct_count">160</div>
 					</div>
 				</div>
-				<div class="category">
+				<div class="category sixth">
 					<div class="category_bg"></div>
 					<div class="category_title">
 						<div class="ct_title">Спецтехника</div>

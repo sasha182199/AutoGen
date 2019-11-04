@@ -296,22 +296,22 @@ h1.title{
 	background-repeat:no-repeat;
 	background-size:cover;
 }
-.category:nth-child(1) .category_bg{
+.category.first .category_bg{
 	background-image: url(/img/buses.png);
 }
-.category:nth-child(2) .category_bg{
+.category.second .category_bg{
 	background-image: url(/img/combainers.png);
 }
-.category:nth-child(3) .category_bg{
+.category.third .category_bg{
 	background-image: url(/img/tractor.png);
 }
-.category:nth-child(4) .category_bg{
+.category.fourth .category_bg{
 	background-image: url(/img/build_tech.png);
 }
-.category:nth-child(5) .category_bg{
+.category.fifth .category_bg{
 	background-image: url(/img/truck.png);
 }
-.category:nth-child(6) .category_bg{
+.category.sixth .category_bg{
 	background-image: url(/img/spectech.png);
 }
 .category_title{
@@ -490,7 +490,7 @@ footer .wrapper{
 }
 /*Desktop end */
 /* Mob and tablet */
-@media(max-width: 767px){
+@media(max-width: 1024px){
 	.category{
 		width: 100%;
 	}
@@ -740,5 +740,32 @@ footer .wrapper{
 @media(max-width: 1749px){
 	.menu_item:last-child .hide_show{
 		left:-180px;
+	}
+}
+@media(max-width: 1024px) and (min-width: 768px){
+	.stats_item{
+		max-width: 340px;
+	}
+	.contact_us .wrapper form{
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+	}
+	.main_banner {
+		height: 610px;
+	}
+	.brands_wrapper .brand:nth-child(2n){
+		margin:0;
+	}
+	.category{
+		max-width: 320px;
+		margin:0 22px;
+	}
+	body .slick-prev, body .slick-next{
+		top:112%;
+	}
+	body .slick-dots{
+		bottom: -55px;
 	}
 }

@@ -22,7 +22,7 @@ $(document).ready(function(){
 		$(".menu_mob_active").fadeOut().css("display","none");
 	});
 
-	if(screen.width < 768){
+	if(screen.width < 1025){
 		$('.category_wrapper').slick({
   			  dots: true,
 			  infinite: false,
@@ -34,8 +34,8 @@ $(document).ready(function(){
 			    {
 			      breakpoint: 1024,
 			      settings: {
-			        slidesToShow: 3,
-			        slidesToScroll: 3,
+			        slidesToShow: 2,
+			        slidesToScroll: 2,
 			        infinite: true,
 			        dots: true
 			      }
