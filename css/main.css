@@ -839,9 +839,17 @@ footer .wrapper{
 	-ms-flex-align: center;
 	        align-items: center;
 	        padding-left: 18px;
+	        cursor: pointer;
 }
 .categories_catalogue{
 	width: 100%;
+	margin-top: 20px;
+}
+.category_visible{
+	border-left:1px solid #C6F0DD;
+}
+.categories_catalogue:first-child{
+	margin-top: 60px;
 }
 .category_visible .ctv_title{
 	font-weight: 700;
@@ -855,7 +863,7 @@ footer .wrapper{
 	font-size: 18px;
 	color:#12A968; 
 }
-.category_visible.active{
+.categorie_active .category_visible{
 	background-color: #f8f8f8;
 	border-left:2px solid #4EEEB5;
 }
@@ -885,4 +893,10 @@ input.checkbox_value[type=checkbox]:checked +  label{
 .category_change{
 	padding-top: 30px;
 	border: 1px solid #F8F8F8;
+}
+.category_change{
+	display: none;
+}
+.categorie_active .category_change{
+	display: block;
 }

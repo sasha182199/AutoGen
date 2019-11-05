@@ -55,6 +55,26 @@ $(document).ready(function(){
 	}
 		
 	
+	// $(".categories_catalogue").click(function(){
+	// 	if($(".categories_catalogue").hasClass("categorie_active")){
+	// 		$(this).find(".category_change").slideUp(300);
+	// 		$(this).removeClass("categorie_active");
+	// 	}else{
+	// 		$(".categories_catalogue .category_change").slideUp();
+	// 		$(".categories_catalogue").removeClass("categorie_active");
+	// 		$(this).find(".category_change").slideDown(300);
+	// 		$(this).addClass("categorie_active");
+	// 	}
+			
+		
+	// });
 	
+
+	$(".categories_catalogue").click(function(){
+		$(".categories_catalogue .category_change").slideUp();
+		$(".categories_catalogue").removeClass("categorie_active");
+	 		$(this).find(".category_change").slideDown(300);
+	 		$(this).addClass("categorie_active");
+	});
 	
 });
