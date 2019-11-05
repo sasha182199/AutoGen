@@ -883,5 +883,6 @@ input.checkbox_value[type=checkbox]:checked +  label{
 	        align-items: center;
 }
 .category_change{
-	margin-top: 30px;
+	padding-top: 30px;
+	border: 1px solid #F8F8F8;
 }
