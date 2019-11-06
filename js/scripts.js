@@ -73,5 +73,36 @@ $(document).ready(function(){
 	//  		$(this).find(".category_change").slideDown(300);
 	//  		$(this).addClass("categorie_active");
 	// });
+	$(".category_littre .category_visible").click(function(){
+		if($(".category_littre").hasClass("closed")){
+			$(".category_littre .category_change").slideDown(300);
+			$(".category_littre").removeClass("closed");
+		}else{
+			$(".category_littre .category_change").slideUp(300);
+		$(".category_littre").addClass("closed");
+		}
+	});
+	$(".category_power .category_visible").click(function(){
+		if($(".category_power").hasClass("closed")){
+			$(".category_power .category_change").slideDown(300);
+			$(".category_power").removeClass("closed");
+		}else{
+			$(".category_power .category_change").slideUp(300);
+		$(".category_power").addClass("closed");
+		}
+	});
 	
+
+
+	$(".main_brand_button").click(function(){
+		if($(".main_brand_button").hasClass("close_filter")){
+			$(".brand_filter_name").fadeIn(200);
+			$(".main_brand_button").removeClass("close_filter")
+		}else{
+			$(".brand_fliter .brand_filter_name").fadeOut(200);
+			$(".main_brand_button").addClass("close_filter");
+		}
+		
+	});
+
 });
